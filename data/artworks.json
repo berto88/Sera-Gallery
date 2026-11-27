@@ -1,5 +1,16 @@
 [
   {
+    "id": "obra-mwzhubtq",
+    "title": "Logo",
+    "description": {
+      "es": "sadf",
+      "en": "asdf"
+    },
+    "image": "assets/artworks/obra-mwzhubtq.webp",
+    "year": "2026",
+    "createdAt": "2026-11-27"
+  },
+  {
     "id": "obra-001",
     "title": "Composición I",
     "description": {
