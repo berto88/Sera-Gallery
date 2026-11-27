@@ -7,6 +7,6 @@ window.SERA_CONFIG={
   links:[],
   portrait:"assets/images/portrait.svg",
   hero:"assets/images/hero.svg",
-  api:"https://sera-gallery.bertotorre88.workers.dev",
+  api:"https://sera-gallery-api.bertotorre88.workers.dev",
   maxMB:8
 };
