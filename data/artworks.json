@@ -1,0 +1,57 @@
+[
+  {
+    "id": "obra-001",
+    "title": "Composición I",
+    "description": {
+      "es": "Capas de tierra y luz dorada que se superponen como recuerdos. (obra de demostración)",
+      "en": "Layers of earth and golden light overlapping like memories. (demo artwork)"
+    },
+    "image": "assets/artworks/obra-001.svg",
+    "year": 2026,
+    "createdAt": "2026-11-20"
+  },
+  {
+    "id": "obra-002",
+    "title": "Silencio",
+    "description": {
+      "es": "Una pausa en tonos grises y verdes, hecha de calma. (obra de demostración)",
+      "en": "A pause in greys and greens, made of stillness. (demo artwork)"
+    },
+    "image": "assets/artworks/obra-002.svg",
+    "year": 2026,
+    "createdAt": "2026-11-12"
+  },
+  {
+    "id": "obra-003",
+    "title": "Umbral",
+    "description": {
+      "es": "El instante previo a cruzar una puerta. (obra de demostración)",
+      "en": "The instant before crossing a threshold. (demo artwork)"
+    },
+    "image": "assets/artworks/obra-003.svg",
+    "year": 2025,
+    "createdAt": "2026-10-30"
+  },
+  {
+    "id": "obra-004",
+    "title": "Memoria de luz",
+    "description": {
+      "es": "Un destello que permanece cuando todo lo demás se desvanece. (obra de demostración)",
+      "en": "A glimmer that stays when everything else fades. (demo artwork)"
+    },
+    "image": "assets/artworks/obra-004.svg",
+    "year": 2025,
+    "createdAt": "2026-10-18"
+  },
+  {
+    "id": "obra-005",
+    "title": "Raíces",
+    "description": {
+      "es": "Formas orgánicas que buscan su sitio en la superficie. (obra de demostración)",
+      "en": "Organic shapes searching for their place on the surface. (demo artwork)"
+    },
+    "image": "assets/artworks/obra-005.svg",
+    "year": 2024,
+    "createdAt": "2026-10-02"
+  }
+]
