@@ -1,5 +1,29 @@
 [
  {
+  "id": "col-mwzi3mx1tob",
+  "works": [
+   "obra-mwzi1x52",
+   "obra-mwzhubtq",
+   "obra-001"
+  ],
+  "published": true,
+  "name": {
+   "es": "as",
+   "en": "as"
+  },
+  "description": {
+   "es": "as",
+   "en": "as"
+  },
+  "intro": {
+   "es": "as",
+   "en": "as"
+  },
+  "year": "2027",
+  "cover": "",
+  "featured": true
+ },
+ {
   "id": "col-esencias",
   "name": {
    "es": "Esencias",
