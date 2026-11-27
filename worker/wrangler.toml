@@ -3,6 +3,7 @@ main = "worker.js"
 compatibility_date = "2024-11-01"
 
 [vars]
+ADMIN_USER = "Sera"
 REPO = "berto88/Sera-Gallery"
 BRANCH = "main"
 ALLOWED_ORIGIN = "https://berto88.github.io"
