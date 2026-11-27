@@ -1,0 +1,145 @@
+{
+ "categories": [
+  {
+   "id": "nature",
+   "name": {
+    "es": "Naturaleza",
+    "en": "Nature"
+   }
+  },
+  {
+   "id": "colors",
+   "name": {
+    "es": "Colores",
+    "en": "Colors"
+   }
+  },
+  {
+   "id": "places",
+   "name": {
+    "es": "Lugares",
+    "en": "Places"
+   }
+  },
+  {
+   "id": "art",
+   "name": {
+    "es": "Arte",
+    "en": "Art"
+   }
+  },
+  {
+   "id": "moments",
+   "name": {
+    "es": "Momentos",
+    "en": "Moments"
+   }
+  },
+  {
+   "id": "textures",
+   "name": {
+    "es": "Texturas",
+    "en": "Textures"
+   }
+  },
+  {
+   "id": "thoughts",
+   "name": {
+    "es": "Pensamientos",
+    "en": "Thoughts"
+   }
+  }
+ ],
+ "items": [
+  {
+   "id": "insp-1",
+   "title": {
+    "es": "Luz de tarde",
+    "en": "Afternoon light"
+   },
+   "text": {
+    "es": "Imagen de ejemplo.",
+    "en": "Sample image."
+   },
+   "category": "nature",
+   "date": "2026-10-01",
+   "image": "assets/inspiration/s1.svg",
+   "published": true
+  },
+  {
+   "id": "insp-2",
+   "title": {
+    "es": "",
+    "en": ""
+   },
+   "text": {
+    "es": "«Mirar despacio también es una forma de crear.»",
+    "en": "“Looking slowly is also a way of creating.”"
+   },
+   "category": "thoughts",
+   "date": "2026-10-03",
+   "image": "",
+   "published": true
+  },
+  {
+   "id": "insp-3",
+   "title": {
+    "es": "Ocres y verdes",
+    "en": "Ochres and greens"
+   },
+   "text": {
+    "es": "Una combinación que me acompaña.",
+    "en": "A combination that stays with me."
+   },
+   "category": "colors",
+   "date": "",
+   "image": "assets/inspiration/s2.svg",
+   "published": true
+  },
+  {
+   "id": "insp-4",
+   "title": {
+    "es": "",
+    "en": ""
+   },
+   "text": {
+    "es": "Superficies que invitan a tocar.",
+    "en": "Surfaces that invite touch."
+   },
+   "category": "textures",
+   "date": "",
+   "image": "assets/inspiration/s3.svg",
+   "published": true
+  },
+  {
+   "id": "insp-5",
+   "title": {
+    "es": "Un rincón",
+    "en": "A quiet corner"
+   },
+   "text": {
+    "es": "Lugar de ejemplo.",
+    "en": "Sample place."
+   },
+   "category": "places",
+   "date": "2026-09-15",
+   "image": "assets/inspiration/s4.svg",
+   "published": true
+  },
+  {
+   "id": "insp-6",
+   "title": {
+    "es": "",
+    "en": ""
+   },
+   "text": {
+    "es": "Los detalles pequeños son los que se quedan.",
+    "en": "It is the small details that stay."
+   },
+   "category": "moments",
+   "date": "",
+   "image": "",
+   "published": true
+  }
+ ]
+}

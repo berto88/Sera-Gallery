@@ -1,0 +1,73 @@
+[
+ {
+  "id": "col-esencias",
+  "name": {
+   "es": "Esencias",
+   "en": "Essences"
+  },
+  "description": {
+   "es": "Lo mínimo que lo contiene todo.",
+   "en": "The least that holds everything."
+  },
+  "intro": {
+   "es": "Obras de demostración: sustitúyelas desde el panel.",
+   "en": "Demo artworks: replace them from the admin panel."
+  },
+  "cover": "assets/artworks/obra-001.svg",
+  "year": "2026",
+  "featured": true,
+  "published": true,
+  "works": [
+   "obra-001",
+   "obra-002",
+   "obra-004"
+  ]
+ },
+ {
+  "id": "col-naturaleza",
+  "name": {
+   "es": "Naturaleza",
+   "en": "Nature"
+  },
+  "description": {
+   "es": "Formas orgánicas y luz cambiante.",
+   "en": "Organic forms and shifting light."
+  },
+  "intro": {
+   "es": "Una exposición de ejemplo.",
+   "en": "A sample exhibition."
+  },
+  "cover": "assets/artworks/obra-005.svg",
+  "year": "2024–2025",
+  "featured": false,
+  "published": true,
+  "works": [
+   "obra-005",
+   "obra-003",
+   "obra-001"
+  ]
+ },
+ {
+  "id": "col-emociones",
+  "name": {
+   "es": "Emociones",
+   "en": "Emotions"
+  },
+  "description": {
+   "es": "Instantes que merecen permanecer.",
+   "en": "Moments that deserve to remain."
+  },
+  "intro": {
+   "es": "Una exposición de ejemplo.",
+   "en": "A sample exhibition."
+  },
+  "cover": "assets/artworks/obra-002.svg",
+  "year": "2025",
+  "featured": false,
+  "published": true,
+  "works": [
+   "obra-002",
+   "obra-003"
+  ]
+ }
+]

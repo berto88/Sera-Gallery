@@ -13,7 +13,7 @@ const S=window.Sera={C,lang,cbs:[],
 
 // Cabecera y navegación
 const pg=D.body.dataset.page;
-$('#hdr').innerHTML=`<a class="logo" href="index.html" data-artist></a><button class="burger" aria-label="Menu" aria-expanded="false">☰</button><nav id="nav">${[['home','index'],['about','about'],['gallery','gallery'],['contact','contact']].map(([k,f])=>`<a href="${f}.html" data-i18n="nav.${k}"${pg===k?' class="on" aria-current="page"':''}></a>`).join('')}<span class="lang"><button data-l="es" aria-label="Español">🇪🇸</button><button data-l="en" aria-label="English">🇬🇧</button></span></nav>`;
+$('#hdr').innerHTML=`<a class="logo" href="index.html" data-artist></a><button class="burger" aria-label="Menu" aria-expanded="false">☰</button><nav id="nav">${[['home','index'],['about','about'],['gallery','gallery'],['process','process'],['inspiration','inspiration'],['contact','contact']].map(([k,f])=>`<a href="${f}.html" data-i18n="nav.${k}"${pg===k?' class="on" aria-current="page"':''}></a>`).join('')}<span class="lang"><button data-l="es" aria-label="Español">🇪🇸</button><button data-l="en" aria-label="English">🇬🇧</button></span></nav>`;
 $('.burger').onclick=e=>{const o=$('#nav').classList.toggle('open');e.currentTarget.setAttribute('aria-expanded',o)};
 $$('.lang button').forEach(b=>b.onclick=()=>{S.lang=b.dataset.l;try{localStorage.setItem('sera-lang',S.lang)}catch{}apply()});
 
@@ -26,7 +26,7 @@ let L=[],i=0,on=false,back;
 const M=D.createElement('div');M.className='modal';M.setAttribute('role','dialog');M.setAttribute('aria-modal','true');
 M.innerHTML=`<button class="nv" data-d="-1" data-i18n-al="modal.prev">‹</button><figure><img alt=""><figcaption><p class="y"></p><h3></h3><p class="ds"></p></figcaption></figure><button class="nv" data-d="1" data-i18n-al="modal.next">›</button><button class="x" data-i18n-al="modal.close">×</button>`;
 D.body.append(M);
-const draw=()=>{const a=L[i],q=s=>$(s,M);q('img').src=a.image;q('img').alt=a.title;q('h3').textContent=a.title;q('.y').textContent=a.year||'';q('.ds').textContent=S.loc(a.description);$$('.nv',M).forEach(b=>b.style.visibility=L.length>1?'':'hidden')};
+const draw=()=>{const a=L[i],q=s=>$(s,M);const im=q('img');im.hidden=!a.image;if(a.image)im.src=a.image;im.alt=a.title||'';q('h3').textContent=a.title||'';q('.y').textContent=a.meta??a.year??'';q('.ds').textContent=S.loc(a.description);$$('.nv',M).forEach(b=>b.style.visibility=L.length>1?'':'hidden')};
 const go=d=>{i=(i+d+L.length)%L.length;draw()},close=()=>{on=false;M.classList.remove('on');D.body.style.overflow='';back&&back.focus()};
 S.modal=(l,k)=>{L=l;i=k;back=D.activeElement;draw();M.classList.add('on');on=true;D.body.style.overflow='hidden';$('.x',M).focus()};
 M.onclick=e=>{if(e.target===M||e.target.closest('.x'))close();const n=e.target.closest('.nv');n&&go(+n.dataset.d)};

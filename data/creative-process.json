@@ -1,0 +1,59 @@
+[
+ {
+  "id": "post-demo",
+  "title": {
+   "es": "Composición I: del boceto a la obra",
+   "en": "Composition I: from sketch to artwork"
+  },
+  "date": "2026-11-20",
+  "artwork": "obra-001",
+  "published": true,
+  "stages": [
+   {
+    "type": "inspiration",
+    "date": "2026-09-02",
+    "text": {
+     "es": "Todo empieza con una luz que se queda en la memoria.",
+     "en": "It all starts with a light that stays in the memory."
+    },
+    "images": [
+     "assets/creative-process/s1.svg"
+    ]
+   },
+   {
+    "type": "strokes",
+    "date": "2026-09-10",
+    "text": {
+     "es": "Primeros bocetos: formas sueltas y colores todavía por decidir.",
+     "en": "First sketches: loose shapes and colours still to be decided."
+    },
+    "images": [
+     "assets/creative-process/s2.svg"
+    ]
+   },
+   {
+    "type": "process",
+    "date": "2026-10-05",
+    "text": {
+     "es": "La obra va tomando cuerpo capa a capa.",
+     "en": "The piece takes shape layer by layer."
+    },
+    "images": [
+     "assets/creative-process/s3.svg",
+     "assets/creative-process/s4.svg"
+    ]
+   },
+   {
+    "type": "final",
+    "date": "2026-11-20",
+    "text": {
+     "es": "El resultado final: una emoción hecha imagen.",
+     "en": "The final piece: an emotion turned into an image."
+    },
+    "images": [
+     "assets/creative-process/s4.svg"
+    ]
+   }
+  ]
+ }
+]

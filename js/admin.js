@@ -27,5 +27,5 @@ $('#list').onclick=async e=>{const b=e.target.closest('button[data-a]');if(!b)re
 $('#list').onsubmit=async e=>{e.preventDefault();const id=e.target.closest('.row').dataset.id,v=new FormData(e.target),m=$('#am'),prev=JSON.stringify(data);
  try{msg(m,'admin.publishing');await api('/artworks/'+id,'PUT',{title:v.get('title').trim(),es:v.get('es'),en:v.get('en'),year:v.get('year')});draw();poll(prev)}catch(x){msg(m,x.message,'err')}};
 S.onLang(()=>{D.querySelectorAll('.msg[data-k]').forEach(m=>m.textContent=m.dataset.k?T(m.dataset.k):'');draw()});
-show();
+S.admin={api,prep,msg};show();
 })();
